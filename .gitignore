@@ -1,0 +1,44 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/cache/
+
+# Chroma DB (if you want to regenerate it)
+chroma_db/
+
+# PDFs (optional - uncomment if you don't want to track PDFs)
+# pdfs/
+
+# Misc
+*.log
+.pytest_cache/
